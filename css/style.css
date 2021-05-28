@@ -1,0 +1,172 @@
+@import 'utilities.css';
+:root{
+    --primary:#ff0039;
+    --dark:#123345;
+    --pure:#ffffff;
+    --ternary:#333;
+    --light:#e9e9e9;
+}
+.logo{
+    height: 150px;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease ;
+}
+header nav .left a:hover{
+    color:var(--primary)
+}
+header nav{
+    padding:2 rem 0;
+}
+.hero .right{
+color: var(--pure);
+text-align:center;
+
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    text-transform: uppercase ;
+}
+.hero .right h1{
+    font-size: 4 rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    
+}
+.hero .right h1 span{
+color: var(--primary);
+}
+.hero .right p{
+    line-height:1.9;
+    margin-bottom: 10rem;
+}
+section {
+padding:6rem 0;
+
+}
+section.about .about-me-img{
+    height:400px;
+   
+}
+section.about h1{
+    margin-bottom:0.9rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+section.about h1 span{
+    color: var(--primary)
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.7rem;
+    margin-left: 2rem;
+}
+section.skills h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight:400;
+    text-transform: uppercase;
+}
+section.skills h3{
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+section.skills p{
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.7rem;
+    margin-left: 2rem;
+}
+section.skills h2 span{
+    color: var(--primary);
+}
+section.work{
+    background: var(--light);
+}
+.card-wrapper{
+    height:250px;
+}
+.skills-container{
+    row-gap:2rem;
+    text-align:center;
+
+}
+.skills_subtitle{
+    margin-bottom: 0.9rem;}
+.skills_text{
+    margin-bottom: 0.9rem;
+}    
+.skills_data{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+font-weight: 300;
+padding: .5rem 1rem;
+margin-bottom: 0.9rem;
+border-radius: .5rem;
+box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills_names{
+display:flex;
+align-items: center;
+}
+.skills_bar{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    background-color: var(--primary);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index:auto;
+}
+.skills_html{
+    width: 40%;
+}
+.skills_css{
+    width: 30%;
+}
+.skills_photoshop{
+    width: 80%;
+}
