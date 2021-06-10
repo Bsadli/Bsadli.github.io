@@ -130,6 +130,7 @@ section.work{
 .skills-container{
     row-gap:2rem;
     text-align:center;
+    margin: 1rem;
 
 }
 .skills_subtitle{

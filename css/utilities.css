@@ -18,11 +18,11 @@
     transition: all .3s ease;
 }
 .btn-primary{
-    background: var(--primary);
-    color:var(--secondary);
+    background: var(--light);
+    color:var(--ternary);
 }
 .btn-primary:hover{
-    background: transparent;
-    border-color: var(--primary);
+    background: var(--ternary);
+    color:var(--light);
     
 }
